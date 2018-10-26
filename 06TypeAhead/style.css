@@ -61,25 +61,19 @@
       transform: perspective(100px) rotateX(-3deg) translateY(3px);
       background: linear-gradient(to top,  #ffffff 0%,#EFEFEF 100%);
     }
-
     span.population {
       font-size: 15px;
     }
-
-
     .details {
       text-align: center;
       font-size: 15px;
     }
-
-    .hl {
+    .hl, .h1 {
       background:#ffc600;
     }
-
     .love {
       text-align: center;
     }
-
     a {
       color:black;
       background:rgba(0,0,0,0.1);
