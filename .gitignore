@@ -29,6 +29,7 @@
 *.gif
 *.psd
 *.ai
+*.zip
 
 #################
 ## Windows detritus
@@ -46,9 +47,29 @@ $RECYCLE.BIN/
 
 # Mac crap
 .DS_Store
+.DS_Store?
 
 #################
 ## Directories
 #################
-
 node_modules/
+haters/
+*.log
+updates/
+
+# Custom #
+######################
+*.sass-cache*
+.cache/*
+_site
+/.idea
+/.vscode
+/config.yml
+secrets.json
+.jekyll-metadata
+.ruby-version
+package-lock.json
+
+._*
+.Spotlight-V100
+.Trashes
