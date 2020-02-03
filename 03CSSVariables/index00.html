@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Scoped CSS Variables and JS</title>
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <h2 style="--base: #BADA55;">Update CSS Variables with <span class="h1">JS</span></h2>
+  <h2 style="--base: #BADA55;">Update CSS Variables with <span class="hl">JS</span></h2>
   <div class="controls">
     <label for="spacing">Spacing:</label>
     <input id="spacing" type="range" name="spacing" min="10" max="200" value="10" data-sizing="px" data-cool="+poop">
@@ -17,11 +19,11 @@
     <label for="base">Base Color</label>
     <input id="base" type="color" name="base" value="#ffc600">
   </div>
-  <img src="photo.jpeg">
+  <img src="photo.jpg">
   <script>
     const inputs = document.querySelectorAll('.controls input');
 
-    function handleUpdate(){
+    function handleUpdate() {
       const suffix = this.dataset.sizing || '';
       document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix);
     }
@@ -30,4 +32,5 @@
     inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
   </script>
 </body>
+
 </html>
