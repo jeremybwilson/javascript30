@@ -69,7 +69,8 @@ secrets.json
 .jekyll-metadata
 .ruby-version
 package-lock.json
-
+.editorconfig
+.prettierrc
 ._*
 .Spotlight-V100
 .Trashes
