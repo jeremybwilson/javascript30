@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  background:#ffc600;
+  background:#ac6be9;
   font-family:'helvetica neue';
   font-size: 20px;
   font-weight: 200;
@@ -61,19 +61,28 @@ input.search {
   transform: perspective(100px) rotateX(-3deg) translateY(3px);
   background: linear-gradient(to top,  #ffffff 0%,#EFEFEF 100%);
 }
+
 span.population {
   font-size: 15px;
 }
+
 .details {
   text-align: center;
   font-size: 15px;
 }
+
 .hl, .h1 {
-  background:#ffc600;
+  background:#ac6be9;
 }
+
 .love {
   text-align: center;
 }
+
+.bold {
+  font-weight: 800;
+}
+
 a {
   color:black;
   background:rgba(0,0,0,0.1);

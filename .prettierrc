@@ -2,10 +2,12 @@
   "overrides": [
     {
       "files": ".prettierrc",
-      "options": { "parser": "json" }
+      "options": {
+        "parser": "json"
+      }
     }
   ],
-  "printWidth": 80,
+  "printWidth": 120,
   "avoidEscape": true,
   "singleQuote": true,
   "bracketSpacing": true,
