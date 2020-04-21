@@ -1,3 +1,5 @@
+### Unnecessary with package.json establish at javascript30 root folder
+
 {
   "name": "gum",
   "version": "1.0.0",
