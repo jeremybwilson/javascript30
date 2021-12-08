@@ -1,20 +1,20 @@
 :root {
-  --base:  #ffc600;
-  --spacing:  10px;
-  --blur:  10px;
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
   --width: 350px;
 }
 
 img {
-  padding:  var(--spacing);
-  background:  var(--base);
-  filter:  blur(var(--blur));
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
   height: var(--width);
   width: var(--width);
 }
 
 .highlight {
-  color:  var(--base);
+  color: var(--base);
 }
 
 /*
@@ -38,5 +38,5 @@ body {
 }
 
 input {
-  width:100px;
+  width: 100px;
 }
