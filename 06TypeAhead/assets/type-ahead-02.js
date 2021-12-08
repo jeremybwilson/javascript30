@@ -1,3 +1,8 @@
+// const endpoint = 'https://gist.githubusercontent.com/Miserlou/c5cd8364bf9b2420bb29/raw/2bf258763cdddd704f8ffd3ea9a3e81d25e2c6f6/cities.json';
+// const cities = [];
+// const prom = fetch(endpoint);
+// console.log(prom);
+
 const endpoint = 'https://gist.githubusercontent.com/Miserlou/c5cd8364bf9b2420bb29/raw/2bf258763cdddd704f8ffd3ea9a3e81d25e2c6f6/cities.json';
 const cities = [];
 const prom = fetch(endpoint);
@@ -11,8 +16,9 @@ fetch(endpoint)
 
 // create a function to find matches for city
 function findMatches(wordToMatch, cities) {
+  // return the cities array, filter it down
   return cities.filter(place => {
-    // here we need to figure out if the city or the state matches what was searched
+    // here we need to figure out if the city or state matches what was searched
     const regex = new RegExp(wordToMatch, 'gi');
     return place.city.match(regex) || place.state.match(regex);
   });
@@ -39,6 +45,7 @@ function displayMatches(){
       </li>
     `;
   }).join('');
+  // append new html to the DOM
   suggestions.innerHTML = html;
 }
 
