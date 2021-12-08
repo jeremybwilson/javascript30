@@ -1,7 +1,8 @@
 // grab all the panels
 const panels = document.querySelectorAll('.panel');
 
-function toggleOpen(){  // create a function to toggle '.open' class on panels
+// create a function to toggle '.open' class on panels
+function toggleOpen(){
   // console.log(this);
   this.classList.toggle('open');
 }
